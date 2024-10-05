@@ -11,6 +11,7 @@ namespace BulkyBookWeb.Models
         public string Name { get; set; }
 
         [DisplayName("Display Order")]
+
         [Range(1,50,ErrorMessage ="Display ko 1 se 50 tak rakho")]
         public int DisplayOrder{ get; set; }
 
